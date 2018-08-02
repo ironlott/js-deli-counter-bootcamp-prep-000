@@ -19,7 +19,7 @@ function currentLine(line, name){
     return 'The line is currently empty.';
   }
   
- var namesAndNumbers = []; 
+  var namesAndNumbers = []; 
   for (let i = 0 ; i < line.length; i++){
     namesAndNumbers.push(`${i + 1}. ${line[i]}`);
   } 
